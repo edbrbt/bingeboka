@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2f4a2b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Bingeboka">
+  <title>Bingeboka</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/ikon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/ikon-192.png">
+  <link rel="stylesheet" href="/stil.css">
+</head>
+<body>
+  <header class="topp">
+    <a href="#/" class="logo"><img src="/ikon.svg" alt=""> Bingeboka</a>
+    <button id="synkstatus" class="synk" type="button" title="Synkroniser nå"></button>
+  </header>
+
+  <main id="innhold" aria-live="polite"></main>
+
+  <nav class="bunn" id="bunnmeny">
+    <a href="#/" data-fane="oversikt">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h8v8H3zM13 3h8v8h-8zM3 13h8v8H3zM13 13h8v8h-8z"/></svg>Garder</a>
+    <a href="#/finn" data-fane="finn">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 3a7 7 0 1 1-4.4 12.4l-3.3 3.3-1.4-1.4 3.3-3.3A7 7 0 0 1 10 3zm0 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/></svg>Finn geit</a>
+    <a href="#/mer" data-fane="mer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v2H4zM4 11h16v2H4zM4 16h16v2H4z"/></svg>Mer</a>
+  </nav>
+
+  <div id="melding" class="melding" role="status" hidden></div>
+  <script src="/app.js"></script>
+</body>
+</html>

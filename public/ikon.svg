@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#2f4a2b"/>
+  <!-- åpen bok -->
+  <path d="M256 168c-40-26-96-34-152-26v236c56-8 112 0 152 26z" fill="#f4f3ee"/>
+  <path d="M256 168c40-26 96-34 152-26v236c-56-8-112 0-152 26z" fill="#e6eee1"/>
+  <!-- geitehorn -->
+  <path d="M214 150c-20-36-8-74 26-92-12 30-6 58 14 82z" fill="#d9b25b"/>
+  <path d="M298 150c20-36 8-74-26-92 12 30 6 58-14 82z" fill="#d9b25b"/>
+  <!-- linjer i boka -->
+  <g stroke="#5b7f4f" stroke-width="14" stroke-linecap="round">
+    <path d="M140 220h76M140 262h76M140 304h56"/>
+    <path d="M296 220h76M296 262h76M296 304h56"/>
+  </g>
+</svg>
