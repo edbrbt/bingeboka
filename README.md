@@ -34,7 +34,7 @@ Lokalt brukes en innebygd database som lagres i `.lokaldata/`, og innlogging er 
 
 1. **Importer repoet** i Vercel med «Add New → Project». Velg rammeverket «Other». Det trengs ingen byggekommando.
 2. **Database:** gå til Storage → Create Database → Neon (Postgres) og koble den til prosjektet. Da settes `DATABASE_URL` automatisk.
-3. **Opprett tabellene** én gang fra din egen maskin:
+3. **Tabellene** opprettes automatisk første gang appen kobler til databasen. Vil du heller gjøre det manuelt fra din egen maskin:
    ```bash
    DATABASE_URL="postgres://..." npm run db:opprett
    ```
