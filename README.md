@@ -3,6 +3,8 @@
 Mobilapp for Russelv gård som holder oversikt over **hvilket garde hver geit står i**.
 Den erstatter papirlappen som brukes når et garde står i melkestallen.
 
+Krav, epics, user stories og NFR: se [docs/krav.md](docs/krav.md) og [Issues](https://github.com/edbrbt/bingeboka/issues).
+
 ## Hva den gjør (versjon 0.1)
 
 - **Oversikt over gardene** i nordre del (garde 1–6) og søndre del (garde 7–11), med belegg, ledige plasser og når hvert garde sist ble gjennomgått. Garde 9 og 10 deler én binge, men regnes som to melkegrupper på 24.
