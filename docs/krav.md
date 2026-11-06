@@ -37,7 +37,7 @@ Garde 9 og 10 står i samme binge, men regnes som to garder fordi melkestallen h
 
 ## Øremerker
 
-Geitene har øremerker i rød, gul, rosa eller blå. Fargen byttes for hvert års påsett og har ellers ingen betydning. Fargen kan likevel ikke brukes til å avgjøre påsettåret: geiter som mister merket og der det er uklart hvem som er hvem, får et nytt nummer og en farge som ikke trenger å samsvare med påsettåret. Fargen lagres derfor på merket, og påsettår er et eget felt (E5.6). Ommerking må kunne registreres slik at historikken følger geita (E5.8). Merket har «NO» og besetningsnummeret (8 siffer, likt for alle geitene i besetningen) med liten skrift, og geitas nummer med stor skrift. **Det store nummeret er identifikatoren i appen.** Merkene er ofte skitne og vanskelige å lese, både for øyet og for kamera (se E4). Besetningen har ikke elektroniske øremerker, så RFID-lesing (E4.4) utgår.
+Geitene har øremerker i ulike farger. Merket har «NO» og besetningsnummeret (8 siffer, likt for alle geitene i besetningen) med liten skrift, og geitas nummer med stor skrift. **Det store nummeret er identifikatoren i appen.** Fargen brukes ikke i løsningen. Geiter som mister merket og der det er uklart hvem som er hvem, får et nytt nummer; ommerking må kunne registreres slik at historikken følger geita (E5.8). Merkene er ofte skitne og vanskelige å lese, både for øyet og for kamera (se E4). Besetningen har ikke elektroniske øremerker, så RFID-lesing (E4.4) utgår.
 
 ## Statuskoder
 
@@ -95,9 +95,9 @@ Geitene har øremerker i rød, gul, rosa eller blå. Fargen byttes for hvert år
 | [E5.3](https://github.com/edbrbt/bingeboka/issues/28) | Som bruker vil jeg se hvor en geit har stått tidligere, slik at jeg kan følge flyttinger over tid. | MVP | ✅ |
 | [E5.4](https://github.com/edbrbt/bingeboka/issues/29) | Som bruker vil jeg gi geita navn og kategori (melkegeit, påsett eller bukk), slik at oversikten blir mer nyttig. | MVP | ✅ |
 | [E5.5](https://github.com/edbrbt/bingeboka/issues/30) | Som bruker vil jeg ta en geit ut av besetningen når den er solgt eller død, slik at den ikke lenger vises i gardene. | MVP | ✅ |
-| [E5.6](https://github.com/edbrbt/bingeboka/issues/31) | Som bruker vil jeg registrere fargen på øremerket til hver geit, slik at fargen kan brukes som ekstra hjelp når nummeret er vanskelig å lese. |  | ⬜ |
+| [E5.6](https://github.com/edbrbt/bingeboka/issues/31) | Som bruker vil jeg registrere fargen på øremerket til hver geit, slik at fargen kan brukes som ekstra hjelp når nummeret er vanskelig å lese. |  | Utgår |
 | [E5.7](https://github.com/edbrbt/bingeboka/issues/32) | Som administrator vil jeg hente besetningslisten fra Geitekontrollen, slik at nye og utgåtte geiter er oppdatert uten å legge dem inn for hånd. |  | ⬜ |
-| [E5.8](https://github.com/edbrbt/bingeboka/issues/58) | Som bruker vil jeg registrere at en geit har fått nytt øremerke med nytt nummer og ny farge, slik at historikken følger geita og det gamle nummeret ikke blir stående som en egen geit. | | ⬜ |
+| [E5.8](https://github.com/edbrbt/bingeboka/issues/58) | Som bruker vil jeg registrere at en geit har fått nytt øremerke med nytt nummer, slik at historikken følger geita og det gamle nummeret ikke blir stående som en egen geit. | | ⬜ |
 
 ### E6 – Bruk uten nett og synkronisering ([#33](https://github.com/edbrbt/bingeboka/issues/33))
 
