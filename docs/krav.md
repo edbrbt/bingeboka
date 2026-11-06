@@ -37,11 +37,11 @@ Garde 9 og 10 står i samme binge, men regnes som to garder fordi melkestallen h
 
 ## Øremerker
 
-Geitene har øremerker i rød, gul, rosa eller blå. Merket har «NO» og besetningsnummeret (8 siffer, likt for alle geitene i besetningen) med liten skrift, og geitas nummer med stor skrift. **Det store nummeret er identifikatoren i appen.** Merkene er ofte skitne og vanskelige å lese, både for øyet og for kamera (se E4).
+Geitene har øremerker i rød, gul, rosa eller blå. Fargen byttes for hvert års påsett og har ellers ingen betydning, men den kan brukes som hjelp når nummeret er vanskelig å lese (E5.6). Merket har «NO» og besetningsnummeret (8 siffer, likt for alle geitene i besetningen) med liten skrift, og geitas nummer med stor skrift. **Det store nummeret er identifikatoren i appen.** Merkene er ofte skitne og vanskelige å lese, både for øyet og for kamera (se E4). Besetningen har ikke elektroniske øremerker, så RFID-lesing (E4.4) utgår.
 
 ## Statuskoder
 
-✅ ferdig · ◐ delvis · ⬜ ikke startet. **MVP** = del av første versjon.
+✅ ferdig · ◐ delvis · ⬜ ikke startet · Utgår = lukket som ikke planlagt. **MVP** = del av første versjon.
 
 ## Epics og user stories
 
@@ -84,7 +84,7 @@ Geitene har øremerker i rød, gul, rosa eller blå. Merket har «NO» og besetn
 | [E4.1](https://github.com/edbrbt/bingeboka/issues/21) | Som bruker vil jeg kunne skanne øremerket med kameraet (Livetekst i iOS), slik at jeg slipper å taste nummeret. | MVP | ⬜ |
 | [E4.2](https://github.com/edbrbt/bingeboka/issues/22) | Som bruker vil jeg få forslag når nummeret bare er delvis lesbart, slik at et skittent merke ikke stopper registreringen. | MVP | ⬜ |
 | [E4.3](https://github.com/edbrbt/bingeboka/issues/23) | Som bruker vil jeg kunne ta bilde av et skittent øremerke og få nummeret lest av en bildemodell, slik at også vanskelige merker kan leses uten å vaske dem. |  | ⬜ |
-| [E4.4](https://github.com/edbrbt/bingeboka/issues/24) | Som bruker vil jeg kunne lese elektroniske øremerker med en RFID-stavleser, slik at registreringen går raskt og uten feil. |  | ⬜ |
+| [E4.4](https://github.com/edbrbt/bingeboka/issues/24) | Som bruker vil jeg kunne lese elektroniske øremerker med en RFID-stavleser, slik at registreringen går raskt og uten feil. |  | Utgår |
 
 ### E5 – Geiter og besetning ([#25](https://github.com/edbrbt/bingeboka/issues/25))
 
@@ -95,7 +95,7 @@ Geitene har øremerker i rød, gul, rosa eller blå. Merket har «NO» og besetn
 | [E5.3](https://github.com/edbrbt/bingeboka/issues/28) | Som bruker vil jeg se hvor en geit har stått tidligere, slik at jeg kan følge flyttinger over tid. | MVP | ✅ |
 | [E5.4](https://github.com/edbrbt/bingeboka/issues/29) | Som bruker vil jeg gi geita navn og kategori (melkegeit, påsett eller bukk), slik at oversikten blir mer nyttig. | MVP | ✅ |
 | [E5.5](https://github.com/edbrbt/bingeboka/issues/30) | Som bruker vil jeg ta en geit ut av besetningen når den er solgt eller død, slik at den ikke lenger vises i gardene. | MVP | ✅ |
-| [E5.6](https://github.com/edbrbt/bingeboka/issues/31) | Som bruker vil jeg registrere fargen på øremerket (rød, gul, rosa, blå), slik at fargen kan brukes som ekstra hjelp når nummeret er vanskelig å lese. |  | ⬜ |
+| [E5.6](https://github.com/edbrbt/bingeboka/issues/31) | Som bruker vil jeg se påsettåret og fargen på øremerket til hver geit, slik at fargen kan brukes som ekstra hjelp når nummeret er vanskelig å lese. |  | ⬜ |
 | [E5.7](https://github.com/edbrbt/bingeboka/issues/32) | Som administrator vil jeg hente besetningslisten fra Geitekontrollen, slik at nye og utgåtte geiter er oppdatert uten å legge dem inn for hånd. |  | ⬜ |
 
 ### E6 – Bruk uten nett og synkronisering ([#33](https://github.com/edbrbt/bingeboka/issues/33))
@@ -136,9 +136,7 @@ Geitene har øremerker i rød, gul, rosa eller blå. Merket har «NO» og besetn
 
 ## Åpne avklaringer
 
-- **Farge på øremerket:** Betyr fargen noe, for eksempel fødselsår? Styrer E5.6 og hvor mye fargen kan hjelpe i E4.2.
-- **Elektroniske øremerker:** Har geitene elektroniske merker som kan leses med RFID-leser? Styrer E4.4.
 - **Geitekontrollen:** Hvilke eksportmuligheter finnes for besetningslisten? Styrer E5.7.
-- **Google-arket:** Skal arket fortsatt brukes når appen er i bruk, eller kan det fases ut? Styrer E7.4.
+- **Google-arket:** Skal arket fortsatt brukes når appen er i bruk, eller kan det fases ut? Styrer E7.4. Avventer.
 - **Felles brukere:** Skal Bingeboka og Timeregistrering dele brukerliste og database? Styrer E1.3 og E1.5.
 - **Geiter som ikke ble sett:** Skal en geit som ikke er sett i flere gjennomganger på rad, markeres som «ukjent plassering»? I dag står den registrert i gardet til den blir sett et annet sted.
