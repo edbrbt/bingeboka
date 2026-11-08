@@ -98,6 +98,7 @@ Geitene har øremerker i ulike farger. Merket har «NO» og besetningsnummeret (
 | [E5.6](https://github.com/edbrbt/bingeboka/issues/31) | Som bruker vil jeg registrere fargen på øremerket til hver geit, slik at fargen kan brukes som ekstra hjelp når nummeret er vanskelig å lese. |  | Utgår |
 | [E5.7](https://github.com/edbrbt/bingeboka/issues/32) | Som administrator vil jeg hente besetningslisten fra Geitekontrollen, slik at nye og utgåtte geiter er oppdatert uten å legge dem inn for hånd. |  | ⬜ |
 | [E5.8](https://github.com/edbrbt/bingeboka/issues/58) | Som bruker vil jeg registrere at en geit har fått nytt øremerke med nytt nummer, slik at historikken følger geita og det gamle nummeret ikke blir stående som en egen geit. | | ⬜ |
+| [E5.9](https://github.com/edbrbt/bingeboka/issues/59) | Som bruker vil jeg merke en geit med BAK (bakterier i ett eller begge jur), slik at alle som melker ser det, uansett hvilket garde geita står i. | | ⬜ |
 
 ### E6 – Bruk uten nett og synkronisering ([#33](https://github.com/edbrbt/bingeboka/issues/33))
 
